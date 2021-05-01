@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8c696179-09e9-468d-b759-83e644be4899" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/plugins/cordova-plugin-file/plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/plugins/cordova-plugin-file/plugin.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/node_modules/cordova-android" />
+  </component>
+  <component name="ProjectId" id="1rcUVNHxyww63BGPKvFhs1KeyvC" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c696179-09e9-468d-b759-83e644be4899" name="Default Changelist" comment="" />
+      <created>1619274894458</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619274894458</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="100" y="127" width="1720" height="813" key="AVDManager" timestamp="1619275056648">
+      <screen x="0" y="27" width="1920" height="1013" />
+    </state>
+    <state x="100" y="127" width="1720" height="813" key="AVDManager/0.27.1920.1013@0.27.1920.1013" timestamp="1619275056648" />
+  </component>
+</project>
