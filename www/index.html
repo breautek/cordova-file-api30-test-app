@@ -33,6 +33,7 @@
             http-equiv="Content-Security-Policy"
             content="
                 default-src 'self' cdvfile: data: gap: https://ssl.gstatic.com 'unsafe-eval';
+                script-src 'self' 'unsafe-inline' file:;
                 style-src 'self' 'unsafe-inline';
                 media-src *;
                 img-src 'self' data: cdvfile: content:;
@@ -52,6 +53,7 @@
                     <tr>
                         <td>Test</td>
                         <td>Result</td>
+                        <td></td>
                     </tr>
                     <tr>
                         <td colspan="2"><strong>Directories</strong></td>
@@ -59,14 +61,17 @@
                     <tr>
                         <td>List Files</td>
                         <td><span id="listDirectoriesTest"></span></td>
+                        <td><input type="button" value="Run Test" onclick="runTest(this)" /></td>
                     </tr>
                     <tr>
                         <td>create directory</td>
                         <td><span id="createDirectoryTest"></span></td>
+                        <td><input type="button" value="Run Test" onclick="runTest(this)" /></td>
                     </tr>
                     <tr>
                         <td>recursive delete</td>
                         <td><span id="recursiveDeleteDirectoryTest"></span></td>
+                        <td><input type="button" value="Run Test" onclick="runTest(this)" /></td>
                     </tr>
                     <tr>
                         <td colspan="2"><strong>File</strong></td>
@@ -74,34 +79,44 @@
                     <tr>
                         <td>write file</td>
                         <td><span id="writeFileTest"></span></td>
+                        <td><input type="button" value="Run Test" onclick="runTest(this)" /></td>
                     </tr>
                     <tr>
                         <td>read file</td>
                         <td><span id="readFileTest"></span></td>
+                        <td><input type="button" value="Run Test" onclick="runTest(this)" /></td>
                     </tr>
                     <tr>
                         <td>get metadata</td>
                         <td><span id="readMetadataTest"></span></td>
+                        <td><input type="button" value="Run Test" onclick="runTest(this)" /></td>
                     </tr>
                     <tr>
                         <td>getParent</td>
                         <td><span id="getParentTest"></span></td>
+                        <td><input type="button" value="Run Test" onclick="runTest(this)" /></td>
                     </tr>
                     <tr>
                         <td>move test</td>
                         <td><span id="moveTest"></span></td>
+                        <td><input type="button" value="Run Test" onclick="runTest(this)" /></td>
                     </tr>
                     <tr>
                         <td>copy test</td>
                         <td><span id="copyTest"></span></td>
+                        <td><input type="button" value="Run Test" onclick="runTest(this)" /></td>
                     </tr>
-                    <tr>
+                    <!--
+                        This method is not actually implemented for android 
+                        <tr>
                         <td>set metadata</td>
                         <td><span id="setMetadataTest"></span></td>
-                    </tr>
+                        <td><input type="button" value="Run Test" onclick="runTest(this)" /></td>
+                    </tr> -->
                     <tr>
                         <td>remove file</td>
                         <td><span id="removeFileTest"></span></td>
+                        <td><input type="button" value="Run Test" onclick="runTest(this)" /></td>
                     </tr>
                     <tr>
                         <td colspan="2"><strong>Hyperlinks</strong></td>
@@ -109,14 +124,17 @@
                     <tr>
                         <td>img tag (cdvfile url)</td>
                         <td><img id="cdvFileLinkTest" width="64" /></td>
+                        <td><input type="button" value="Run Test" onclick="runTest(this)" /></td>
                     </tr>
                     <tr>
                         <td>img tag (native url)</td>
                         <td><img id="nativeURLLinkTest" width="64" /></td>
+                        <td><input type="button" value="Run Test" onclick="runTest(this)" /></td>
                     </tr>
                     <tr>
                         <td>audio</td>
                         <td><audio id="readAudioTest" autoplay></audio></td>
+                        <td><input type="button" value="Run Test" onclick="runTest(this)" /></td>
                     </tr>
                 </tbody>
             </table>
